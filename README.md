@@ -1,4 +1,4 @@
-## About Me
+## 👨‍💻 About Me
 
 Hey, I'm **St0ff3l**, a Computer Science student at **USM**. 
 
