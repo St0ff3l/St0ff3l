@@ -17,7 +17,7 @@ Just sharing what I'm learning and building.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-green-dual.svg" alt="3D contribution profile" />
+  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock.svg" alt="3D contribution profile" />
 </p>
 
 ### Activity Metrics
