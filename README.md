@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg" alt="github-snake" />
-</p>
-
 ## About Me
 
 Hey, I'm **St0ff3l**, a Computer Science student at **USM**. 
@@ -12,36 +8,54 @@ Just sharing what I'm learning and building.
 
 ## Languages and Tools
 
-<p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/dart" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dart" alt="dart" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/express" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/spring" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=spring" alt="spring" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a>
-</p>
+<div align="center">
+  <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25" /></a>
+  <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="25" /></a>
+  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="25" /></a>
+  <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="25" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="25" /></a>
+  <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="25" /></a>
+  <a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="25" /></a>
+  <a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="25" /></a>
+  <a href="https://dart.dev/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dartlang-icon.svg" alt="Dart" height="25" /></a>
+  <a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="25" /></a>
+  <a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="25" /></a>
+</div>
 
 ---
 
 ## Stats & Contributions
 
-### 3D Contribution Profile
 <p align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution profile" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg" alt="github-snake" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-dual.svg" alt="3D contribution profile" />
 </p>
 
 ### Activity Metrics
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" width="48%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=transparent&hide_border=true&stroke=30363d&ring=58a6ff&fire=f0883e&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=f0f6fc&dates=8b949e&sideNums=f0f6fc">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da">
+    <img src="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da" alt="GitHub Stats" width="48%" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&theme=github&hide_border=true" alt="Activity Graph" width="97%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=0d1117&color=e6edf3&line=58a6ff&point=f78166&area=true&area_color=1f6feb33&title_color=e6edf3&hide_border=true&custom_title=Contribution%20Graph">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=1f6feb&area=true&area_color=ddf4ff&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=1f6feb&area=true&area_color=ddf4ff&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="97%" />
+  </picture>
 </p>
