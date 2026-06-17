@@ -14,8 +14,6 @@ Hey, I'm **St0ff3l**, a Computer Science student at **USM**.
 
 I enjoy turning messy ideas and repetitive tasks into clean, production-ready workflows.
 
-*   **Focusing on:** Frontend UX, Document Automation, Markdown Parsers, and AI-assisted Workflows.
-*   **Philosophy:** Stop building throwaway course projects; build reusable, real-world products.
 
 ---
 
