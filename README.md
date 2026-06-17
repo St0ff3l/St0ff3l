@@ -6,6 +6,44 @@ Just sharing what I'm learning and building.
 
 ---
 
+## Stats & Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg" alt="github-snake" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-green-dual.svg" alt="3D contribution profile" />
+</p>
+
+### Activity Metrics
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=transparent&hide_border=true&stroke=30363d&ring=58a6ff&fire=f0883e&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=f0f6fc&dates=8b949e&sideNums=f0f6fc">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da">
+    <img src="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da" alt="GitHub Stats" width="48%" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=0d1117&color=e6edf3&line=58a6ff&point=f78166&area=true&area_color=1f6feb33&title_color=e6edf3&hide_border=true&custom_title=Contribution%20Graph">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=1f6feb&area=true&area_color=ddf4ff&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=1f6feb&area=true&area_color=ddf4ff&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="97%" />
+  </picture>
+</p>
+
+---
+
 ## My Skill Set
 
 <table><tr><td valign="top" width="33%">
@@ -44,41 +82,3 @@ Just sharing what I'm learning and building.
 </div>
 
 </td></tr></table>
-
----
-
-## Stats & Contributions
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/output/github-contribution-grid-snake.svg" alt="github-snake" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-green-dual.svg" alt="3D contribution profile" />
-</p>
-
-### Activity Metrics
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=transparent&hide_border=true&stroke=30363d&ring=58a6ff&fire=f0883e&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=f0f6fc&dates=8b949e&sideNums=f0f6fc">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da">
-    <img src="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da" alt="GitHub Stats" width="48%" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=0d1117&color=e6edf3&line=58a6ff&point=f78166&area=true&area_color=1f6feb33&title_color=e6edf3&hide_border=true&custom_title=Contribution%20Graph">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=1f6feb&area=true&area_color=ddf4ff&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=1f6feb&area=true&area_color=ddf4ff&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="97%" />
-  </picture>
-</p>
