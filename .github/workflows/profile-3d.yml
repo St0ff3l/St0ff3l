@@ -27,15 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-
-      - name: Build dual-theme gitblock SVG
-        run: |
-          # Remap gitblock colors to better match the language colors shown in the pie chart.
-          perl -0pi -e 's/hsl\(125, 52%, 50%\)/#3178c6/g; s/hsl\(125, 52%, 10%\)/#0b2f55/g; s/rgb\(43, 136, 51\)/#295f94/g; s/rgb\(9, 27, 10\)/#071f38/g; s/rgb\(51, 162, 60\)/#3178c6/g; s/rgb\(10, 32, 12\)/#0b2f55/g; s/hsl\(242, 100%, 65%\)/#e34c26/g; s/hsl\(242, 100%, 16%\)/#5b1d0c/g; s/rgb\(58, 54, 179\)/#b13b1d/g; s/rgb\(2, 0, 57\)/#3e1408/g; s/rgb\(69, 64, 213\)/#d94822/g; s/rgb\(2, 0, 68\)/#4a1809/g; s/hsl\(48, 100%, 50%\)/#b07219/g; s/hsl\(48, 100%, 15%\)/#4a2f0a/g; s/rgb\(179, 143, 0\)/#8d5914/g; s/rgb\(54, 43, 0\)/#352006/g; s/rgb\(213, 171, 0\)/#a96817/g; s/rgb\(64, 51, 0\)/#3f2707/g; s/hsl\(350, 100%, 50%\)/#00B4AB/g; s/hsl\(350, 100%, 15%\)/#064540/g; s/rgb\(179, 0, 30\)/#008c85/g; s/rgb\(54, 0, 9\)/#042f2c/g; s/rgb\(213, 0, 36\)/#00a79e/g; s/rgb\(64, 0, 11\)/#053833/g;' profile-3d-contrib/profile-gitblock.svg
-          cp profile-3d-contrib/profile-gitblock.svg profile-3d-contrib/profile-gitblock-dual.svg
-          perl -0pi -e 's@</style>@\@media (prefers-color-scheme: dark) {\n.fill-fg { fill: #e6edf3; }\n.stroke-fg { stroke: #e6edf3; }\n.fill-bg { fill: transparent; }\n.stroke-bg { stroke: transparent; }\n.fill-strong { fill: #f0f6fc; }\n.fill-weak { fill: #8b949e; }\n.stroke-weak { stroke: #8b949e; }\n.radar {\nstroke-width: 4px;\nstroke: #47a042;\nfill: #47a042;\nfill-opacity: 0.5;\n}\n}\n</style>@' profile-3d-contrib/profile-gitblock-dual.svg
-          cp profile-3d-contrib/profile-gitblock.svg profile-3d-contrib/profile-gitblock-dark-transparent.svg
-          perl -0pi -e 's/\\.fill-bg \\{ fill: #ffffff; \\}/.fill-bg { fill: transparent; }/g; s/\\.stroke-bg \\{ stroke: #ffffff; \\}/.stroke-bg { stroke: transparent; }/g; s/\\.fill-fg \\{ fill: #00000f; \\}/.fill-fg { fill: #e6edf3; }/g; s/\\.stroke-fg \\{ stroke: #00000f; \\}/.stroke-fg { stroke: #e6edf3; }/g; s/\\.fill-strong \\{ fill: #111133; \\}/.fill-strong { fill: #f0f6fc; }/g; s/\\.fill-weak \\{ fill: gray; \\}/.fill-weak { fill: #8b949e; }/g; s/\\.stroke-weak \\{ stroke: gray; \\}/.stroke-weak { stroke: #8b949e; }/g;' profile-3d-contrib/profile-gitblock-dark-transparent.svg
+          SETTING_JSON: .github/profile-3d/contrib-blue-dual.json
 
       - name: Commit generated files
         run: |

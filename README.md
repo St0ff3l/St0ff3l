@@ -17,11 +17,8 @@ Just sharing what I'm learning and building.
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock-dark-transparent.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock.svg">
-    <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock.svg" alt="3D contribution profile" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-contrib-blue.svg#gh-light-mode-only" alt="3D contribution profile" />
+  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-contrib-blue-dark.svg#gh-dark-mode-only" alt="3D contribution profile" />
 </p>
 
 ### Activity Metrics
