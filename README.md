@@ -17,11 +17,7 @@ Just sharing what I'm learning and building.
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock.svg">
-    <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock.svg" alt="3D contribution profile" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/St0ff3l/St0ff3l/main/profile-3d-contrib/profile-gitblock-dual.svg" alt="3D contribution profile" />
 </p>
 
 ### Activity Metrics
@@ -52,6 +48,7 @@ Just sharing what I'm learning and building.
 
 <div align="center">
   <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>
+  <a href="https://vuejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="50" /></a>
   <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>
   <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
   <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>

@@ -28,6 +28,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Build dual-theme gitblock SVG
+        run: |
+          cp profile-3d-contrib/profile-gitblock.svg profile-3d-contrib/profile-gitblock-dual.svg
+          perl -0pi -e 's@</style>@\@media (prefers-color-scheme: dark) {\n.fill-fg { fill: #e6edf3; }\n.stroke-fg { stroke: #e6edf3; }\n.fill-bg { fill: transparent; }\n.stroke-bg { stroke: transparent; }\n.fill-strong { fill: #f0f6fc; }\n.fill-weak { fill: #8b949e; }\n.stroke-weak { stroke: #8b949e; }\n.radar {\nstroke-width: 4px;\nstroke: #47a042;\nfill: #47a042;\nfill-opacity: 0.5;\n}\n}\n</style>@' profile-3d-contrib/profile-gitblock-dual.svg
+
       - name: Commit generated files
         run: |
           git config user.name github-actions
