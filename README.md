@@ -16,14 +16,14 @@ Just sharing what I'm learning and building.
 ### Activity Metrics
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=transparent&hide_border=true&stroke=30363d&ring=58a6ff&fire=f0883e&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=f0f6fc&dates=8b949e&sideNums=f0f6fc">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=St0ff3l&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=St0ff3l&theme=transparent&hide_border=true&stroke=30363d&ring=58a6ff&fire=f0883e&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=f0f6fc&dates=8b949e&sideNums=f0f6fc">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=St0ff3l&theme=default&hide_border=true">
+    <img src="https://streak-stats.demolab.com/?user=St0ff3l&theme=default&hide_border=true" alt="GitHub Streak" width="48%" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da">
-    <img src="https://github-readme-stats.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da" alt="GitHub Stats" width="48%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=St0ff3l&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=0969da&text_color=24292f&icon_color=0969da" alt="GitHub Stats" width="48%" />
   </picture>
 </p>
 
