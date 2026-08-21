@@ -38,21 +38,28 @@ jobs:
           path: profile/streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate light GitHub stats
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true
-          path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate GitHub stats cards
+        env:
+          STATS_USERNAME: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          stats_tmp_dir="$(mktemp -d)"
+          stats_light_url="https://github-stats-extended.vercel.app/api?username=${STATS_USERNAME}&show_icons=true&theme=default&hide_border=true"
+          stats_dark_url="https://github-stats-extended.vercel.app/api?username=${STATS_USERNAME}&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d"
 
-      - name: Generate dark GitHub stats
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=e6edf3&icon_color=58a6ff&border_color=30363d
-          path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 2 --max-time 30 "$stats_light_url" -o "$stats_tmp_dir/stats-light.svg"
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 2 --max-time 30 "$stats_dark_url" -o "$stats_tmp_dir/stats-dark.svg"
+
+          for stats_file in "$stats_tmp_dir/stats-light.svg" "$stats_tmp_dir/stats-dark.svg"; do
+            grep -q '<svg' "$stats_file"
+            if grep -Eiq 'Something went wrong|Maximum retries exceeded|PAT_1|Resource not accessible' "$stats_file"; then
+              echo "Stats provider returned an error card: $stats_file"
+              exit 1
+            fi
+          done
+
+          mv "$stats_tmp_dir/stats-light.svg" profile/stats-light.svg
+          mv "$stats_tmp_dir/stats-dark.svg" profile/stats-dark.svg
 
       - name: Commit generated cards
         run: |
