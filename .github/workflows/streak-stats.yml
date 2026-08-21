@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-streak-stats
+  group: profile-generated-assets
   cancel-in-progress: false
 
 jobs:
