@@ -61,6 +61,30 @@ jobs:
           mv "$stats_tmp_dir/stats-light.svg" profile/stats-light.svg
           mv "$stats_tmp_dir/stats-dark.svg" profile/stats-dark.svg
 
+      - name: Generate activity graph cards
+        env:
+          ACTIVITY_USERNAME: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          activity_tmp_dir="$(mktemp -d)"
+          activity_light_url="https://github-readme-activity-graphkayan.vercel.app/graph?username=${ACTIVITY_USERNAME}&bg_color=ffffff&color=24292f&line=0969da&point=f78166&area=true&area_color=1f6feb22&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph"
+          activity_dark_url="https://github-readme-activity-graphkayan.vercel.app/graph?username=${ACTIVITY_USERNAME}&bg_color=0d1117&color=e6edf3&line=58a6ff&point=f78166&area=true&area_color=1f6feb33&title_color=e6edf3&hide_border=true&custom_title=Contribution%20Graph"
+
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 2 --max-time 30 "$activity_light_url" -o "$activity_tmp_dir/activity-light.svg"
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 2 --max-time 30 "$activity_dark_url" -o "$activity_tmp_dir/activity-dark.svg"
+
+          for activity_file in "$activity_tmp_dir/activity-light.svg" "$activity_tmp_dir/activity-dark.svg"; do
+            grep -q '<svg' "$activity_file"
+            grep -q 'Contribution Graph' "$activity_file"
+            if grep -Eiq 'Something went wrong|Maximum retries|PAT_1|Resource not accessible|402 Payment Required' "$activity_file"; then
+              echo "Activity graph provider returned an error card: $activity_file"
+              exit 1
+            fi
+          done
+
+          mv "$activity_tmp_dir/activity-light.svg" profile/activity-light.svg
+          mv "$activity_tmp_dir/activity-dark.svg" profile/activity-dark.svg
+
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"

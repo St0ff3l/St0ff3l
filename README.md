@@ -29,9 +29,9 @@ Just sharing what I'm learning and building.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=0d1117&color=e6edf3&line=58a6ff&point=f78166&area=true&area_color=1f6feb33&title_color=e6edf3&hide_border=true&custom_title=Contribution%20Graph">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=f78166&area=true&area_color=1f6feb22&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=St0ff3l&bg_color=ffffff&color=24292f&line=0969da&point=f78166&area=true&area_color=1f6feb22&title_color=24292f&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="97%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/activity-light.svg">
+    <img src="./profile/activity-light.svg" alt="Activity Graph" width="97%" />
   </picture>
 </p>
 
